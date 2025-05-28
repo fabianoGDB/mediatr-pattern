@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "WebApi.Controllers.BooksConroller",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/BooksConroller",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
