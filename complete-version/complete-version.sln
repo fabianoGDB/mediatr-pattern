@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediator.csproj", "{6BFF29B9-E892-4C65-963A-B2F92C91E05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Samples", "Mediator.Samples\Mediator.Samples.csproj", "{FEE060E4-12B9-4001-9B81-799AC5BE3458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator.Abstractions", "Mediator.Abstractions\Mediator.Abstractions.csproj", "{6EA37DE0-4977-4830-B4E8-60E05741A606}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BFF29B9-E892-4C65-963A-B2F92C91E05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFF29B9-E892-4C65-963A-B2F92C91E05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFF29B9-E892-4C65-963A-B2F92C91E05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFF29B9-E892-4C65-963A-B2F92C91E05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE060E4-12B9-4001-9B81-799AC5BE3458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE060E4-12B9-4001-9B81-799AC5BE3458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE060E4-12B9-4001-9B81-799AC5BE3458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE060E4-12B9-4001-9B81-799AC5BE3458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA37DE0-4977-4830-B4E8-60E05741A606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA37DE0-4977-4830-B4E8-60E05741A606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA37DE0-4977-4830-B4E8-60E05741A606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA37DE0-4977-4830-B4E8-60E05741A606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
