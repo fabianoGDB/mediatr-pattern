@@ -2,6 +2,10 @@
 
 This project demonstrates a lightweight custom implementation of the **Mediator Pattern** in ASP.NET Core, inspired by [MediatR](https://github.com/jbogard/MediatR). It shows how to decouple business logic using `IRequest`, `IRequestHandler`, and a dynamic `Sender`.
 
+The Mediator pattern is a behavioral design pattern aimed at reducing chaotic dependencies between objects.
+
+It restricts direct communication between components, forcing them to communicate only through a central object: the mediator.
+
 ---
 
 ## 🚀 Features
